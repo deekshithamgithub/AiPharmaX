@@ -24,7 +24,7 @@ export default function Dashboard() {
 
       const res = await axios.post(
         // "http://127.0.0.1:8000/predict",
-        "https://aipharmax1.onrender.com",
+        "https://aipharmax1.onrender.com/predict",
         {
           disease: disease.trim().toLowerCase()
         }
